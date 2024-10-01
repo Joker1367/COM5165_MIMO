@@ -23,12 +23,12 @@ for L in range(1, 6):
     solution = fsolve(equation, initial_guess)
 
     C_epsilon_theoretical = np.log2(1 + max(solution)*X)
-    plt.plot(SNR, C_epsilon_theoretical / C_AWGN , label = f'L = {L}', marker=markers[L-1])
+    plt.plot(SNR, C_epsilon_theoretical / C_AWGN)
 
     chi2_samples = chi2.rvs(df, size = sample_size)
     chi2_samples.sort()
     C_epsilon_simulation = np.log2(1 + chi2_samples[int(sample_size * epsilon) - 1]*X)
-    plt.plot(SNR, C_epsilon_simulation / C_AWGN , label = f'L = {L}', marker=markers[L-1])
+    plt.plot(SNR, C_epsilon_simulation / C_AWGN , label = f'L = {L} (Simulated)', marker=markers[L-1], linestyle='None')
 
 
 plt.title(r'$\epsilon$-outage capacity')
