@@ -23,7 +23,7 @@ for L in range(1, 6):
     solution = fsolve(equation, initial_guess)
 
     C_epsilon_theoretical = np.log2(1 + max(solution)*X)
-    plt.plot(SNR, C_epsilon_theoretical / C_AWGN)
+    plt.plot(SNR, C_epsilon_theoretical / C_AWGN, label = f'L = {L} (Theoretical)')
 
     chi2_samples = chi2.rvs(df, size = sample_size)
     chi2_samples.sort()
