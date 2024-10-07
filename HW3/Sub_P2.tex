@@ -13,13 +13,13 @@ The simulation consists of two parts:
 		\epsilon\left(C\right) = P\left(\log(1 + \|h\|^{2} \, \text{SNR}) < C\right)
 	\end{equation*} 
 	Given $\epsilon$, $L$, and SNR, we first generate a large number ($N = 2L \cdot 10^6$) of channel 
-	realizations from $\mathcal{CN}(0,1)$. For every $2L$ realization, we obtain $\|h\|^2$ by
+	realizations from $\mathcal{CN}(0,1)$. For every $2L$ channel realization, we obtain $\|h\|^2$ by
 	\begin{equation*}
 		\|h\|^2 = \sum_{l=1}^{2L} x_l^2
 	\end{equation*}
 	Calculate $\log(1 + \|h\|^{2} \, \text{SNR})$ for each $\|h\|^2$ and sort them into nondecreasing 
-	order. Let $k = N\epsilon$, and pick the $k$th smallest value from the sorted data, which
-	is then the simulated result.
+	order. Let $k = 10^6 \cdot \epsilon$. From the definition above we conclude that the $k$th smallest value from the sorted data
+	is the simulated result.
 
 \end{itemize}
 

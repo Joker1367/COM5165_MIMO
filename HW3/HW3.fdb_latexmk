@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1728313933.07936 "HW3.xdv" "HW3.pdf" "HW3" 1728313933.85828 0
-  "HW3.xdv" 1728313932 17288 cfb1904d01d03b0506d6bc0fc16a0987 "xelatex"
+["xdvipdfmx"] 1728314368.54036 "HW3.xdv" "HW3.pdf" "HW3" 1728314369.27312 0
+  "HW3.xdv" 1728314368 17584 cbfef7e92ae629d18155a45f68891513 "xelatex"
   (generated)
   "HW3.pdf"
   (rewritten before read)
-["xelatex"] 1728313932.00186 "c:/Users/User/Desktop/COM5165_MIMO/HW3/HW3.tex" "HW3.xdv" "HW3" 1728313933.85486 0
+["xelatex"] 1728314367.49075 "c:/Users/User/Desktop/COM5165_MIMO/HW3/HW3.tex" "HW3.xdv" "HW3" 1728314369.26975 0
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1711029787 37545642 2992ef179e821830d31f3d97ca0c13d7 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -136,9 +136,9 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.sty" 1673775190 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty" 1673775190 325 f9f16d12354225b7dd52a3321f085955 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "HW3.aux" 1728313932 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "HW3.aux" 1728314368 32 3985256e7290058c681f74d7a3565a19 "xelatex"
   "HW3.tex" 1728313754 1193 4bf133f5f92b95b9b94bf8db60a44f9f ""
-  "Sub_P2.tex" 1728313930 1457 6091ab44beba8408b39ecd36da49ff97 ""
+  "Sub_P2.tex" 1728314366 1497 452948ee35dafa90effce8ffc28ac4a6 ""
   "c:/Users/User/Desktop/COM5165_MIMO/HW3/HW3.tex" 1728313754 1193 4bf133f5f92b95b9b94bf8db60a44f9f ""
   "epsilon_outage.eps" 1728313920 41087 6df2f5595d4e5cafd24a1bda6365c46c ""
   (generated)
