@@ -30,10 +30,10 @@ for i = 1:length(nr_values)
 
     normalizedPattern = patterndata / max(patterndata);
 
-    s = sprintf('n_r = %d, L_r = %d',nr, Lr);
+    
     % Customize plot
     subplot(2,2,i)
     polarplot(deg2rad(angles), normalizedPattern, 'LineWidth', 1.5);
-    title(s);
+    title('Normalized ULA Beamforming Pattern (Linear Scale)');
     rlim([0 1]); % Set display range
 end
